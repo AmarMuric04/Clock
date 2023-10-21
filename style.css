@@ -1,0 +1,52 @@
+body {
+  background: rgb(238, 174, 174);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 174, 1) 0%,
+    rgba(148, 233, 189, 1) 100%
+  );
+  font-family: "Roboto Mono", monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 95vh;
+  overflow: hidden;
+}
+h1 {
+  font-size: 10vh;
+  margin: 0vh;
+  opacity: 0.2;
+  color: rgb(252, 139, 139);
+}
+.main {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0vh 5vh;
+  width: 60vh;
+  height: 15vh;
+  border-radius: 2vh;
+  font-size: 10vh;
+  box-shadow: 0vh 2vh 3vh rgba(0, 0, 0, 0.4);
+}
+.amOrPm {
+  font-size: 3vh;
+  display: flex;
+  color: red;
+}
+.hourdiv,
+.minutediv,
+.seconddiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hourdiv span:nth-child(2),
+.minutediv span:nth-child(2),
+.seconddiv span:nth-child(2) {
+  font-size: 2vh;
+  margin-top: -2vh;
+}
